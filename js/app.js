@@ -93,13 +93,13 @@ for (let i = 0; i !== 4; i++) {
 
     switch (number) {
 
-        case '1':
         case '2':
-        case '3':
         case '5':
+        case '3':
+        case '1':
+        case '6':  
             alert('its too low ');
             break;
-        case '6':
         case '7':
         case '8':
         case '9':
@@ -118,7 +118,7 @@ if (number !== 4) {
 //the 7 th qustion-----------------------------------------------------------------------------------------------------------------------
 
 let foods = ['Dawali', 'Mansaf', 'kabsa', 'basta', 'soups', 'ice creem', 'hummos', 'pizza'];
-for (let i = 0; i < 7; i++) {
+for (var i = 0; i < 7; i++) {
     var fans = (prompt('What do you think it\'s my favorite food from this list ' + foods));
     if (fans !== 'Dawali') {
         let yy = 7;
@@ -128,9 +128,12 @@ for (let i = 0; i < 7; i++) {
         correct = correct + 1;
         break;
     }
+    
     if (i == 7) { wrong = wrong + 1; }
+    
 }
-
+if (i == 7) {
+alert('The true answer is Dawali');}
 
 alert(nam + '  please see your result at the bottom of the page');
 document.write("<br>");
