@@ -1,7 +1,7 @@
 'use strict'
 // I was added the functions and call it by samah
 let correct = 0;
-//let wrong = 0;
+let wrong = 0;
 let nam ;
 function q1(){
  nam = prompt('Hello dear.Please enter your beautiful name here :')
@@ -133,29 +133,32 @@ if (number !== 4) {
 q6();
 //the 7 th qustion-----------------------------------------------------------------------------------------------------------------------
 
-
-function q7(){
-    let foods = ['Dawali', 'Mansaf', 'kabsa', 'basta', 'soups', 'ice creem', 'hummos', 'pizza'];
-for (var i = 0; i < 7; i++) {   
+let testnum=0;
+function Q7 () {
     
-    var fans = (prompt('What do you think it\'s my favorite food from this list ' + foods));   
- if (fans !== 'Dawali') {    
-     
-    let yy = 7;    }   
-        
-         else {      
-              
-            alert('yes true answer is Dawali')   
-      correct = correct + 1;        break;    }   
-         if (i == 7) { wrong = wrong + 1; }    }
-         if (i == 7) {alert('The true answer is Dawali');}
-         
-if (i == 7) {
-alert('The true answer is Dawali');
-}
-}
-q7();
+    let foods = ['dawali', 'mansaf','kabsa' , 'basta'];
 
+    let i =0;
+for (i=0; i < 6 ; i++) {   
+    testnum =testnum+1;
+   let fans = (prompt('What do you think it\'s my favorite food ' ));   
+ for (let j=0; j<foods.length;j++)
+ if (fans.toLowerCase() == foods[j])   {
+     alert('yes I love '+ foods[j])
+     correct=correct+1;
+     i=7;
+     break;
+  
+ }
+ 
+}
+if (testnum == 6 ){
+    wrong =wrong+1;
+    alert('My favourite food is '+ foods );
+}
+}
+
+Q7();
 alert(nam + '  please see your result at the bottom of the page');
 document.write("<br>");
 document.write('Thanks for your time ' + nam)
