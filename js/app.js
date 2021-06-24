@@ -1,7 +1,7 @@
 'use strict'
 // I was added the functions and call it by samah
 let correct = 0;
-//let wrong = 0;
+let wrong = 0;
 let nam ;
 function q1(){
  nam = prompt('Hello dear.Please enter your beautiful name here :')
