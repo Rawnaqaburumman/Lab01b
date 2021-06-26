@@ -1,40 +1,64 @@
-h1,h2,h3 ,h4 {
-    margin:auto;
-    font-weight: bolder;
-  
-}
+h1 {
+text-align: center;
+color: rgb(20, 20, 20);
+background-color: burlywood;
+border-radius: 3rem;
+padding: .9rem 3rem ;
+font-size: 1.6rem;
+margin:20px;
+clear:both;
 
+}
 nav ul li {
     display: inline-block;
-    margin: 20px;
-    
+    margin:20px; 
+}
+nav ul {
+
+    background-color: burlywood;
 }
 
 nav ul li a {
     text-decoration: none;
     color: gold;
+    font-size:x-large;
+   
+}
+article  {
+    padding: 20px;
+    margin: 20px;
+
+  
+
+
 }
 
-div {
-background-color: rgb(93, 93, 230);
-}
-body {
-
-    background-color: rgb(124, 172, 218);
-}
-
-article {
-margin-bottom:40px;
-text-align:left;
-margin: auto;}
-
-footer {
+section{
+   
+    margin: 20px;
+    text-align: left;
+  
     
-        text-align: center;
-        color:black;
-        background-color:rgb(93, 93, 230);
-        margin-top: 200px;
-      }
+}
+footer {
 
+  
+    text-align: center;
+    color:rgb(26, 24, 16);
+    background-color:burlywood;
+    margin-top:50px;
+
+
+  }
+p {
+    font-size:xx-large;
+    padding: 10px;
+    font-weight: bold;
+}
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    font-weight: bold;
+}
 
 

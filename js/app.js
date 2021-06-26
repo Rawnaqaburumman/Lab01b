@@ -168,3 +168,4 @@ document.write("<br>");
 document.write('Number of true answer= ' + correct);
 document.write("<br>");
 document.write('Number of wrong answer= ' + wrong);
+
